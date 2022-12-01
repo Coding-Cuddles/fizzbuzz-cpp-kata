@@ -6,11 +6,11 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_INCLUDE_DIRECTORIES ${CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES})
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-find_package(GTest)
+find_package(GTest REQUIRED)
 
-add_executable(fizzbuzz fizzbuzz.cpp)
+add_executable(main main.cpp)
 
-file(GLOB tests "${PROJECT_SOURCE_DIR}/test_*.cpp")
+file(GLOB tests test_*.cpp)
 foreach(test ${tests})
     get_filename_component(name ${test} NAME_WE)
     add_executable(${name} ${test})
