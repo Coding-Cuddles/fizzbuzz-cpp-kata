@@ -1,4 +1,4 @@
-# FizzBuzz C++ Kata
+# FizzBuzz kata in C++
 
 [![CI](https://github.com/Coding-Cuddles/fizzbuzz-cpp-kata/actions/workflows/main.yml/badge.svg)](https://github.com/Coding-Cuddles/fizzbuzz-cpp-kata/actions/workflows/main.yml)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
