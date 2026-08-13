@@ -54,10 +54,9 @@ FizzBuzz
 
 > [!NOTE]
 >
-> We recommend always starting with the canonical version, and only once you
-> have it working proceed to the advanced version. This helps to model
-> situations in production when we don't know all the requirements when a
-> project starts.
+> We recommend always starting with the canonical version and proceeding to
+> the advanced version only once it works. This helps model situations in
+> production where we don't know all the requirements when a project starts.
 
 Follow the same rules as the canonical version with these additional rules:
 
